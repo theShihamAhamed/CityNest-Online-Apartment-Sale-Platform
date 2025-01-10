@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartments</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="nav">
+            <div class="logo"><a href="home.html">City Nest</a></div>
+            <ul class="links">
+                <li><a href="home.php">Home</a></li>
+                <li><a href="apartments.php">Apartment</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+            <div class="wishlogin">
+                <a href="wishList.php" class="wishlistBtn">
+                    <i class="fa-solid fa-heart"></i>
+                </a>
+                <a href="login.html" class="loginBtn">Login</a>
+                
+            </div>
+        </div>
+    </header>
+
+    <!--login form-->
+    <div class="loginContainer">
+        <div class="wrapper">
+            <form action="login_process.php" method="post">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" name="email" required>
+                    <input type="password" placeholder="Password" name="password" required> 
+                    <button type="submit" class="btn">Login</button>
+                    <div class="register-link">
+                        <p>Don't have an account? <a href="register.html">Register</a></p>
+                    </div>
+                </div>    
+            </form>
+        </div>
+    </div>
+   
+    
+    <!--footer-->
+    <footer>
+        <div class="footerContainer">
+            <div class="footerLogo">
+                <a href="#">City Nest</a>
+            </div>
+            <div class="footerLinks">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Apartment</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footerSocials">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="footerCopyright">
+                <p>&copy; 2024 City Nest. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/cards.js"></script>
+</body>
+</html>

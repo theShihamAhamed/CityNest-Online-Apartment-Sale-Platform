@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.main-image {
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details {
+    width: 500px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.details h1 {
+    font-size: 28px;
+    color: #2d3e50;
+    margin-bottom: 10px;
+}
+
+.details p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.details .info-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.info-box div {
+    width: 48%;
+    padding: 15px;
+    background-color: #f8f9fa; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.info-box div p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container .details .price {
+    font-size: 32px;
+    font-weight: 900;
+    color: #112D4E;
+    margin-top: 10px;
+}
+
+.link-heart{
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: #112D4E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #19406c;
+    color: orange; 
+    transform: scale(1.05);
+}
+
+.heartbtn {
+    align-items: center;
+    margin-right: 10px;
+}
+
+.delete-btn {
+    display: flex;
+    align-items: center; 
+    margin: 0; 
+    padding: 10px 20px; 
+    background-color: #112D4E;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.delete-btn:hover {
+    background-color: #19406c;
+    color: orange;
+}
+
+.delete-btn i {
+    font-size: 24px; 
+    padding: 0 10px 0 10px;
+}
+
+.small-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.small-images img {
+    height: 250px;
+    width: 24%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    margin: 40px 0 50px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #2d3e50;
+}
+
+.description p {
+    margin: 0;
+    line-height: 1.6;
+    color: #6c757d;
+    font-size: 16px;
+}

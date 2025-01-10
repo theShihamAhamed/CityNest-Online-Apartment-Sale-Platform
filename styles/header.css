@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+a:hover{
+    color: orange;
+}
+
+header {
+    padding: 16px 32px;
+    width: 100%;
+    background-color: #112D4E;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .logo a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav .links{
+    display: flex;
+    gap: 40px;
+}
+
+.nav .links li a {
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav .links li a:hover {
+    background-color: orange;
+    color: #112D4E;
+}
+
+.nav .links li a.navActive {
+    text-decoration: underline;
+    color: orange;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav .links li a.navActive:hover {
+    color: #112D4E;
+
+}
+
+
+.wishlogin{
+    display: flex;
+}
+
+.wishlogin a{
+    text-decoration: none;
+}
+
+
+
+.loginBtn{
+    padding: 8px 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+}
+
+.loginBtn:hover{
+    background-color: orange;
+    color: #112D4E;
+}
+
+.loginBtn input {
+    background: none; 
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font: inherit;
+    cursor: pointer; 
+    text-decoration: none; 
+}
+
+.wishlistBtn {
+    padding: 8px 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.wishlistBtn:hover {
+    background-color: orange;
+    color: #112D4E;
+}
+
+.wishlistBtn i {
+    font-size: 16px;
+    margin-right: 5px;
+}
