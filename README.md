@@ -1,6 +1,6 @@
 # City Nest - Apartment Rental Website
 
-City Nest is a web-based apartment rental platform developed as a university project during my 2nd Year 1st Semester in October 2024. The system allows users to browse apartment listings, view detailed property information, save apartments to a wishlist, contact the platform, and manage user sessions through login and registration.
+City Nest is a web-based apartment rental platform developed as a university project during my 2nd Year 1st Semester in April 2025. The system allows users to browse apartment listings, view detailed property information, save apartments to a wishlist, contact the platform, and manage user sessions through login and registration.
 
 The project also includes an admin section where the admin can manage apartment listings, view contact messages, add new listings, edit existing listings, delete listings, and manage registered users.
 
